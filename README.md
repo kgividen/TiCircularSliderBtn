@@ -23,7 +23,7 @@ Download the TiCircularSliderBtn.js and put it in the app/lib directory.
 ```javascript
 var args = arguments[0] || {};
 
-var btn1 = require("/circularSliderBtn").init({
+var btn1 = require("/TiCircularSliderBtn").init({
 	top:'20',
 	name:'Blah',
 	width: 100,
