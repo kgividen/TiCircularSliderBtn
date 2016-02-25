@@ -33,7 +33,7 @@ var btn1 = require("/TiCircularSliderBtn").init({
 	btnOnColor: '#31B3E7'
 });
 
-var btn2 = require("/circularSliderBtn").init({
+var btn2 = require("/TiCircularSliderBtn").init({
 	name: 'Button2',
 	top:'150',
 	width: 50,
