@@ -4,8 +4,8 @@ A circular slider with button for Titanium
 # TiCircularSlider [![Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://www.appcelerator.com/titanium/)
 
 ## About
-TiCircularSliderButton is a native module for Titanium for iOS and Android. It uses
-[TiCircularSlider](https://github.com/eliotfowler/EFCircularSlider).
+TiCircularSliderButton is a js module for Titanium for iOS and (soon to be Android). It uses
+[TiCircularSlider](https://github.com/mpociot/TiCircularSlider).
 
 TiCircularSlider uses the native modules
 [EFCircularSlider](https://github.com/eliotfowler/EFCircularSlider) on iOS and [CircularSeekBar](https://github.com/RaghavSood/AndroidCircularSeekBar) on Android. 
@@ -13,12 +13,13 @@ TiCircularSlider uses the native modules
 ## Quick Start
 
 ### Installation
-Install the TiCircularSlider module.
+Install the [TiCircularSlider](https://github.com/mpociot/TiCircularSlider) module.
 Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it, or simply use the [gitTio CLI](http://gitt.io/cli):
 
 Download the TiCircularSliderBtn.js and put it in the app/lib directory.
 
 ### Usage
+```
 var args = arguments[0] || {};
 
 var btn1 = require("/circularSliderBtn").init({
@@ -63,3 +64,4 @@ $.win.addEventListener("open", function() {
 
 $.win.add(btn1);
 $.win.add(btn2);
+```
