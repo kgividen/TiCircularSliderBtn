@@ -19,6 +19,8 @@ Download the latest distribution ZIP-file and consult the [Titanium Documentatio
 
 Download the TiCircularSliderBtn.js and put it in the app/lib directory.
 
+Example can be found here [AlloySpikeExample] (https://github.com/kgividen/AlloySpike)
+
 ### Usage
 ```javascript
 var args = arguments[0] || {};
